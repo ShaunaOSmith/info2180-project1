@@ -59,3 +59,62 @@ header div.container nav ul li a:hover {
     grid-template-columns: 1fr 2fr;
     padding: 32px 64px;
 }
+
+.learn-about div.container {
+    padding: 32px 64px;
+}
+
+.learn-about div.cards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 24px;
+}
+
+.learn-about div.cards div.card {
+    border-color: #E2E8F0;
+    border-radius: 5px;
+    box-shadow: 2px 4px 4px 2px #999;
+    padding: 16px 16px;
+}
+
+.learn-about div.cards div.card img {
+    width: 90%;
+    height: 150px;
+    padding: 16px 16px;
+}
+
+.learn-about div.container h2 {
+    font-size: 24px;
+    color: #48BB78;
+}
+
+.learn-about div.container div.cards div.card div.card-body h3 {
+    color: #48BB78;
+    font-size: 21px;
+} 
+
+
+.testing {
+    background-color: #4A5568;
+    color: white;
+    padding: 80px 80px;
+}
+
+.testing div.container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    grid-column-gap: 48px;
+}
+
+.testing div.container div.cta {
+    margin-left: 32px;
+}
+
+.testing div.container div.cta a.btn {
+    background-color: #48BB78;
+    border-radius: 5px;
+    color: white;
+    padding: 12px 32px;
+    text-decoration: none;
+}
