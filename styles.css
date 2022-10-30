@@ -118,3 +118,25 @@ header div.container nav ul li a:hover {
     padding: 12px 32px;
     text-decoration: none;
 }
+
+
+.stories div.container {
+    padding: 64px 32px 32px;
+}
+
+.stories div.container h2, .stories div.container article div.article-body p a {
+    color: #5A67D8;
+    text-decoration: none;
+}
+
+.stories div.container article img {
+    float: left;
+    width: 176px;
+    height: 176px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.stories div.container article div.article-body {
+    margin-bottom: 64px;
+}
