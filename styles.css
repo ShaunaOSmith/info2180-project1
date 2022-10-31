@@ -140,3 +140,47 @@ header div.container nav ul li a:hover {
 .stories div.container article div.article-body {
     margin-bottom: 64px;
 }
+
+.newsletter {
+    background-color: #48BB78;
+    color: white;
+}
+
+.newsletter div.container {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding: 16px 64px 40px 64px;
+}
+
+.newsletter div.container form {
+    display: flex;
+    flex-flow: nowrap;
+}
+
+.newsletter div.container form button.btn {
+    background-color: #5A67D8;
+    padding: 12px 16px;
+    border-radius: 5px;
+    border-style: hidden;
+    color: white;
+    width: 128px;
+}
+
+.newsletter div.container p {
+    margin: 0px 256px 16px 256px;
+}
+
+#email {
+    margin-right: 4px;
+    padding: 12px 24px;
+    border-radius: 5px;
+    border-style: hidden;
+    width: 272px;
+}
+
+footer {
+    background-color: #4A5568;
+    color: white;
+    padding: 4px 4px;
+}
